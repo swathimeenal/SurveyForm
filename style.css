@@ -1,0 +1,48 @@
+.star {
+    font-size: 25px;
+    color: gray;
+    cursor: pointer;
+}
+.star.checked {
+    color: gold;
+}
+textarea,input { 
+    resize: none; 
+    color: black !important;
+}
+h1,h5,label[for="comments"] {
+    color: aqua;
+}
+body {
+    background-image: url('https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?cs=srgb&dl=pexels-hasan-albari-1229861.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+/* body::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5) ;
+} */
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 30px;
+    border-radius: 15px;
+}
+table {
+    margin: 5px 0px;
+    background-color: rgba(143, 139, 139,0.2);
+}
+th,tr,td  {
+    color: white;
+    border: 2px solid white;
+
+}
+input[type='radio'] {
+    accent-color: #83c5be;
+    color: aqua !important;
+    transform: scale(1.3);
+    -ms-transform: (1.5);
+    -webkit-transform: (1.5);
+}
